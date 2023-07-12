@@ -1,0 +1,505 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+       /* HOME PART */
+
+    
+/* 
+.sec-home{
+  height: 100vh;`
+}
+
+   .video-one{
+       width: 100vw;
+       height: 300px;
+   } */
+
+   .homer-sec{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background: url(./images/sport\ 1.jpg);
+   }
+
+   #homeSec{
+     position: relative;
+     width: 500px;
+     height: 400px;
+     overflow: hidden;
+   }
+
+   #homeSec #homeSlide{
+    position: relative;
+    list-style: none;
+    height: 100%;
+    width: 10000%;
+    padding: 0;
+    margin: 0;
+    transition: all 750ms ease;
+    left: 0;
+   }
+   #homeSec #homeSlide .list-homer{
+    position: relative;
+    height: 100%;
+    float: left;
+   }
+
+   #homeSec #homeSlide .list-homer .slide-img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+   }
+
+  .image-homer{
+    height: 400px;
+    width: 700px;
+    object-fit: cover;
+  }
+
+   #homeSec #prev, #homeSec #next{
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    transform: translateY(-50%);
+    transition: all 150ms ease;
+    padding-top: 320px;
+   }
+   #homeSec #prev{
+    left: 10px;
+   }
+   #homeSec #next{
+    right: 10px;
+   }
+
+
+   #homeSec #prev:hover, #homeSec #next:hover{
+   color: red;
+       text-shadow: 0;
+   }
+
+
+       /* WHY PART */
+.why{
+    background-color: #d4d4d5;
+   width: 100%;
+   height: 60px;
+
+}
+
+.span-why{
+    color: royalblue;
+}
+
+.link-why{
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+}
+
+  /* HOME IMAGES */
+.div-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image-home-one{
+    width: 450px;
+}
+
+  .button-link{
+    text-decoration: none;
+  }
+
+  /* .para-home{
+    font-size: 27px;
+    font-weight: bold;
+   margin-left: 25px;
+   margin-bottom: 15px;
+  } */
+
+  #headings{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 33px;
+  }
+
+  #heading{
+    font-size: 25px;
+    color: #fff;
+  }
+     
+
+  .button-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+   margin-bottom: 10px;
+  }
+
+  .button-home-two{
+    width: 115px;
+    height: 35px;
+    border-radius: 55px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .button-home-one{
+    width: 90px;
+    height: 35px;
+    border-radius: 55px;
+    border: none;
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  
+
+
+  /*END OF HOME IMAGES */
+
+     /* MEMBER PART */
+     .mem-div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: 50px;
+      column-gap: 20px;
+      row-gap: 20px;
+     }
+      .div-mem-one{
+   background-image: url(./images/cor\ 5.jpg);
+   background-position: center;
+   background-size: cover;
+   width: 100%;
+   height: 350px;
+   color: #fff;
+       padding: 20px;
+      }
+
+
+      .name-mem{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        margin-top: 30px;
+      }
+
+      .mem-confirm{
+   padding-left: 20px;
+   font-size: 30PX;
+   font-weight: bold;
+      }
+
+      .para-member{
+        margin-top: 50px;
+        color: #ffffff;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+      .div-mem-two{
+        background-image: url(./images/back\ 2.jpg);
+   width: 380px;
+   height: 350px;
+   background-position: center;
+   background-size: cover;
+      }
+      .div-mem-three{
+        background-image: url(./images/boot\ 5.jpg);
+        width: 380px;
+        height: 350px;
+   background-position: center;
+   background-size: cover;
+   /* object-fit: contain; */
+      }
+
+      .btn-top{
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
+      .mem-para-text-one{
+        margin-bottom: 30px;
+      }
+
+       .mem-para-text-one,
+       .mem-para-text{
+         color: #000;
+         font-size: 20px;
+         font-weight: bold;
+       }
+      .mem-para{
+        margin-left: 50px;
+        font-size: 25px;
+        font-weight: bold;  
+      }
+
+      .btn-mem{
+        width:  80px;
+        height: 35px;
+        border-radius: 20px;
+        background-color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-left: 5px;
+        font-weight: bold;
+      }
+      /* .memBtn{
+
+      } */
+
+     /*END OF MEMBER PART */
+
+
+
+
+     /* MORE PART */
+     .more-sec{
+        height: 100%;
+        margin-bottom: 30px;
+     }
+
+     .more-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+     }
+
+     .more-one,
+     .more-two,
+     .more-three,
+     .more-four{
+        width: 400px; 
+        height: 150px;   
+     }
+
+       .more-one,
+       .more-two,
+       .more-three,
+       .more-four{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+       }
+
+       .mile-img{
+        width: 200px;
+        margin-right: 10px;
+       }
+
+       .mile-para{
+        font-size: 17px;
+        font-weight: bold;
+       }
+
+       .mile-para-one{
+        text-align: center;
+        color: #d4d4d5;
+        font-size: 18px;
+       }
+
+       .para-featured-two{
+color: #000;
+margin-left: 40px;
+margin-bottom: 20px;
+font-weight: bolder;
+font-size: 28px;
+       }
+
+       .jeagwad{
+        text-decoration: none;
+       }
+
+         
+      .para-featured{
+        font-size: 28px;
+        font-weight: bold;
+       margin-left: 100px;
+       margin-bottom: 15px;
+       color: #000;
+     }
+     /*END OF MORE PART */
+
+       /* SHOP PART */
+       .shop-sec{
+        margin-bottom: 40px;
+       }
+      .shop-one,
+      .shop-two,
+      .shop-three{
+        width: 300px;
+        height: 370px;
+      }
+
+      .para-featured-one{
+        font-size: 28px;
+        font-weight: bold;
+       margin-left: 15px;
+       margin-bottom: 15px;
+       color: #000;
+     }
+
+      .shop-one{
+        background: url(./images/Rectangle\ 19.png);
+      }
+      .shop-two{
+        background: url(./images/Rectangle\ 22.png);
+      }
+      .shop-three{
+        background: url(./images/Rectangle\ 25.png);
+      }
+
+.shop-cover{
+    background-color: #000000dc;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+      .shop-div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        column-gap: 10px;
+      }
+
+.shop-para{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.shop-btn{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 90px;
+    height: 33px;
+    background: #000;
+    color: royalblue;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.para-wrap{
+    position: absolute;
+    bottom: 140px;
+    right: 65px;
+}
+       /*END OF SHOP PART */
+
+          /* FOOTER PART */
+.foot-one{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+#foot-para-one,
+.foot-link-one{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.foot-news{
+    background-color: #000;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.news-para{
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
+          
+.news-one{
+    color: #fff;
+    margin-right: 30px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.news-btn{
+    position: absolute;
+    right: 0;
+     margin-right: 40px;
+}
+
+.btn-news{
+    width: 130px;
+    height: 37px;
+    background-color: red;
+    border: none;
+    color: royalblue;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.foot-icon{
+    background-color: #000;
+    border-top: 2px solid #fff;
+    width: 100%;
+    height: 200px;
+}
+
+   .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 25px;
+    padding-top: 20px;
+   }
+
+   .nate-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    margin-left: 20px;
+   }
+          /*END OF FOOTER PART */
