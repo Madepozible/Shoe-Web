@@ -3,85 +3,413 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./auth.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./practice.css">
+    <!-- <link rel="stylesheet" href="./animation.css"> -->
+    
 
     <title>Document</title>
 </head>
 <body>
+
     
-       <div class="ower-name">
-         <h1 class="header">Welcome To Jaegwad</h1>
-       </div>
-      <section class="container">
+        <!-- NAV BAR -->
+
+        <header class="header">
+            <div class="container">
+                <div class="header-main">
+                    <div class="logo">
+                        <a href="#">Logo</a>
+                    </div>
+                    <div class="open-nav-menu">
+                        <span class="spaner"></span>
+                    </div>
+                    <div class="menu-overlay">
+                    </div>
+                    <!-- navigation menu start -->
+                    <nav class="nav-menu">
+                        <div class="close-nav-menu">
+                            <img src="./images/icon-close-menu.svg" alt="close" class="close-nav">
+                        </div>
+                        <ul class="menu">
+                            <li class="menu-item menu-item-has-children">
+                     <a href="#" data-toggle="sub-menu">Home <i class="plus"></i> </a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="./menone.html">Men</a></li>
+                                <li class="menu-item"><a href="./women.html">Women</a></li>
+                                <li class="menu-item"><a href="./kid.html">Kids</a></li>
+                                <!-- <li class="menu-item"><a href="#">Home 4</a></li> -->
+                            </ul>    
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">About</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Services</a>
+                            </li>
+                            <li class="menu-item menu-item-has-children">
+                                <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                                <ul class="sub-menu">
+                                    <li class="menu-item"><a href="#">Corporate</a></li>
+                                    <li class="menu-item"><a href="#">Simple</a></li>
+                                    <li class="menu-item"><a href="#">Classic</a></li>
+                                    <!-- <li class="menu-item"><a href="#">Pages 4</a></li> -->
+                                </ul>   
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">News</a>
+                            </li>
+                            <li class="menu-item">
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- navigation menu end -->
+                </div>
+            </div>
+        </header>
+        
+            <!-- header end -->
+        
+            <!-- home section start -->
+        <section class="home-section">
+        
+        </section>
+        
+            <!-- home section end -->
+          
+
+
+
+
+
+
 
         
+        <!--END OF NAV BAR -->
+         <!-- FIRST SHOP LINK -->
+         <section class="home">
+            <div class="why">
+        
+                <!-- <div id="textSlider" class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-4 iamCol">
+                        <p>Jaegwad</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 slideCol">
+                        <div class="scroller">
+                            <div class="inner">
+                                <p>25% Nuclear Engineer!</p>
+                                <p>3% Java Developer!</p>
+                                <p>2% Full Stack !</p>
+                                <p>70% Brilliant!</p>
+                            </div>
+                        </div>
+                    </div>
+                
+                </div> -->
+            </div>
+      
+                   <!--END OF FIRST SHOP LINK -->
 
-      <div class="wrap-two">
-        <div class="img-div">
-        <img src="./images/back 1.jpg" alt="" class="side-img">
-        </div>
-  </div>
-
-        <div class="wrap-one">
-      <div class="login-div">
-        <h3 class="login">Login</h3>
-      </div>
-
-
-          <div class="logo-div">
-            <p class="logo">LOGO</p>
-          </div>
-
-    <form id="former">
-        <!-- <div class="form-one">
-            <label for="name" class="name">Name</label>    
-            <input type="text" class="input-one" placeholder="Name">
-        </div> -->
-
-        <div class="form-one">
-            <!-- <label for="name" class="name">Name</label> -->
-            <input type="text" type="email" id="inputEmail" class="input" placeholder="Email">
-        </div>
-
-
-        <div class="form-one">
-            <!-- <label for="name" class="name">Name</label> -->
-            <input type="password" id="inputPassword" class="password" placeholder="Password">
-        </div>
-
-          <div class="option-div">
-            <button class="btn-add" id="signin">Next</button>
-            <!-- <button class="none" id="signup">Login</button> -->
-          </div>
-
-          <div class="facebook-div">
-            <button class="btn-face">Continue With Facebook</button>
-          </div>
+                  <!-- HOME PAGE -->
+<section class="homer-sec">
 
 
-          <div class="google-div">
-            <button class="btn-google">Continue With Google</button>
-          </div>
-    </form>
- 
+<div id="homeSec">
+<ul id="homeSlide">
+   <li class="list-homer"><img src="./images/home one.jpg" alt="" class="slide-img"></li>
+  <li class="list-homer"><img src="./images/home two.jpg" alt="" class="slide-img"></li>
+   <li class="list-homer"><img src="./images/home three.jpg" alt="" class="slide-img"></li>
+   <li class="list-homer"><img src="./images/home four.jpg" alt="" class="slide-img"></li>
+   <li class="list-homer"><img src="./images/home five.jpg" alt="" class="slide-img"></li>
+</ul>
+         
 
-     <div class="text-div">
-   <p class="already">Don't have an account? <a href="./signup.html" class="already-link">Sign up</a></p>
+<a id="prev" href="#">&#8810;</a>
+<a id="next" href="#">&#8811;</a>
+</div>
 
-     <div class="privacy">
-      <p class="para-priv">By continuing you agree to Jaegwad <span>Terms of Service</span></p>
-      <p class="para-priv">and acknowledge you've read our<span>Privacy Policy</span></p>
-      <p class="para-priv"><span>Notice at collection</span></p>
-     </div>
-     </div>
+    <div class="image-homer">
+        <img src="./images/home six.jpg" alt="" class="image-homer">
     </div>
+</section>
 
+
+                  <!--END OF HOME PAGE -->
+
+      <!-- HOME -->
+  
+
+
+          <!-- VIDEO HOME IMAGES -->
+
+
+
+
+          <!--END OF VIDEO HOME IMAGES -->
+
+             <!-- HOME IMAGES -->
+
+   <div class="text-home">
+    <!-- <p class="para-home">Simple Elegant</p> -->
+<h2 id="headings">Simply Elegant...</h2>
+            
+      <div class="button-home">
+        <a href="./menone.html" class="button-link">
+            <button class="button-home-one">Men</button>
+        </a>
+        <a href="./women.html" class="button-link">
+            <button class="button-home-two">Women</button>
+        </a>
+        <a href="./kid.html" class="button-link">
+            <button class="button-home-one">Kid</button>
+        </a>
+      </div>
+   </div>
+      
+
+
+          <!--END OF HOME IMAGES -->
+
+
+          <!-- HOME -->
+        </section>
+
+ 
+           <!-- FEATURED PART -->
+                  <section class="feauture-sec">
+                    <div class="wrapper">
+                        <i id="left" class='bx bx-chevron-right' class="left"></i>
+                        <div class="carousel">
+                            <p class="para-featured-one">Features</p>
+                            <img src="./images/sport 3.jpg" alt="">
+                            <img src="./images/sport 4.jpg" alt="">
+                            <img src="./images/sport 2.jpg" alt="">
+                            <img src="./images/sport 4.jpg" alt="">
+                            <img src="./images/sport 3.jpg" alt="">
+                            <img src="./images/sport 2.jpg" alt="">
+                            <img src="./images/sport 4.jpg" alt="">
+                            <img src="./images/sport 2.jpg" alt="">
+                        </div>
+                        <i id="right" class='bx bx-chevron-right'></i>
+                    </div>
+                </section>
+
+
+           <!--END OF FEATURED PART -->
+
+              <!-- MENBER PART -->
+         <section class="mem-sec">
+            <p class="mem-para">Jaegwad Menbership</p>
+            <div class="mem-div">
+            <div class="div-mem-one">
+            <p class="name-mem">Jaegwad</p>
+            <P class="mem-confirm">BECOME A</P>
+            <P class="mem-confirm">MEMBER</P>
+
+            <P class="para-member">Sign up for free.Join th community</P>
+
+            <div class="memBtn">
+                <a href="#" class="mem-link">
+                    <button class="btn-mem">Join Us</button>
+                </a>
+                <a href="#" class="mem-link">
+                    <button class="btn-mem">Sign In</button>
+                </a>
+            </div>
+            </div>
+            <div class="btn-top">
+                <div class="text-btn-one">
+                    <div class="div-mem-two"></div>
+                    <p class="mem-para-text-one">Shop Member-exclusion style</p>
+                </div>
+                <div class="text-btn">
+                    <div class="div-mem-three"></div>
+                    <p class="mem-para-text">Shop Member-exclusion style</p>
+                </div>
+        </div>
+        </div>
+         </section>
+              <!--END OF MENBER PART -->
+
+    <!-- MORE PART -->
+    
+      <section class="more-sec">
+         <p class="para-featured-two">More From Jaegwad</p>
+          <div class="more-div">
+            <div class="more-one">
+                <a href="#" class="more-link">
+                    <img src="./images/Rectangle 15.png" alt="" class="mile-img">
+                </a>
+                <div class="mile-div">
+                    <a href="#" class="jeagwad">
+                        <p class="mile-para-one">Jaegwad Bags</p>
+                    </a>
+                    <p class="mile-para">Everything you will</p>
+                    <p class="mile-para">need for every mile.</p>
+                </div>
+            </div>
+            <div class="more-two">
+                <a href="#" class="link-more">
+                    <img src="./images/Rectangle 16.png" alt="" class="mile-img">
+                </a>
+                <div class="mile-div">
+                    <a href="#" class="jeagwad">
+                        <p class="mile-para-one">Jaegwad Bags</p>
+                    </a>
+                    <p class="mile-para">Everything you will</p>
+                    <p class="mile-para">need for every mile.</p>
+                </div>
+            </div>
+            <div class="more-three">
+                <a href="#" class="link-more">
+                    <img src="./images/Rectangle 17.png" alt="" class="mile-img">
+                </a>
+                <div class="mile-div">
+                    <a href="#" class="jeagwad">
+                        <p class="mile-para-one">Jaegwad Bags</p>
+                    </a>
+                    <p class="mile-para">Everything you will</p>
+                    <p class="mile-para">need for every mile.</p>
+                </div>
+            </div>
+            <div class="more-four">
+                <a href="#" class="link-more">
+                    <img src="./images/Rectangle 18.png" alt="" class="mile-img">
+                </a>
+                <div class="mile-div">
+                    <a href="#" class="jeagwad">
+                        <p class="mile-para-one">Jaegwad Bags</p>
+                    </a>
+                    <p class="mile-para">Everything you will</p>
+                    <p class="mile-para">need for every mile.</p>
+                </div>
+            </div>
+          </div>
       </section>
-      <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
 
-      <script src="./auth.js"></script>
 
+    <!--END OF MORE PART -->
+
+
+        <!-- SHOP PART -->
+     <section class="shop-sec">
+        <p class="para-featured">Shop By Style</p>
+        <div class="shop-div">
+            <div class="shop-one">
+                <div class="shop-cover">
+                     <div class="para-wrap">
+                        <p class="shop-para">Classic Bags</p> 
+                        <p class="shop-para">For All Wears</p> 
+                     </div>
+                     
+                   <a href="#" class="shop-link">
+                    <button class="shop-btn">Shop</button>
+                   </a>
+                </div>
+            </div>
+            <div class="shop-two">
+                <div class="shop-cover">
+                    <div class="para-wrap">
+                       <p class="shop-para">Classic Bags</p> 
+                       <p class="shop-para">For All Wears</p> 
+                    </div>
+                  <a href="#" class="shop-link">
+                   <button class="shop-btn">Shop</button>
+                  </a>
+               </div>
+            </div>
+            <div class="shop-three">
+                <div class="shop-cover">
+                    <div class="para-wrap">
+                       <p class="shop-para">Classic Bags</p> 
+                       <p class="shop-para">For All Wears</p> 
+                    </div>
+                  <a href="#" class="shop-link">
+                   <button class="shop-btn">Shop</button>
+                  </a>
+               </div>
+            </div>
+        </div>
+     </section>
+
+        <!--END OF SHPO PART -->
+
+        
+            <!-- FOOTER PART -->
+
+              <footer class="foot-wrap">
+                <div class="foot-div">
+         
+                      <div class="foot-one">
+                        <a href="#" class="foot-link-one">
+                            <p id="foot-para-one">Back To Top</p>
+                        </a>
+                      </div>
+
+                       <div class="foot-news">
+                        <div class="news-para">
+                            <p class="news-one">Join Jaegwad Fashion</p>
+                            <p class="news-one">Update</p>
+                        </div>
+
+                         <div class="news-btn">
+                            <a href="#" class="news-link">
+                                <button class="btn-news">Sign Up</button>
+                            </a>
+                         </div>
+                       </div>
+
+                       <div class="foot-icon">
+                         
+                         <div class="icon">
+                            <a href="#" class="icon-link">
+                                <img src="./images/Facebook.png" alt="" class="icon-img">
+                            </a>
+                            <a href="#" class="icon-link">
+                                <img src="./images/Youtube.png" alt="" class="icon-ing">
+                            </a>
+                    <a href="#" class="icon-link">
+                        <img src="./images/instagram.png" alt="" class="icon-img">
+                    </a>
+                <a href="#" class="icon-link">
+                    <img src="./images/Twitter.png" alt="" class="icon-img">
+                </a>
+                         </div>
+
+                         <div class="note-div">
+                            <nav class="note-nav">
+                                <ul class="note-ul">
+                                    <li class="list-note">
+                                        <a href="#" class="nate-link">Promotion</a>
+                                    </li>
+                                    <li class="list-note">
+                                        <a href="#" class="nate-link">Find Store</a>
+                                    </li>
+                                    <li class="list-note">
+                                        <a href="#" class="nate-link">Become A Member</a>
+                                    </li>
+                                    <li class="list-note">
+                                        <a href="#" class="nate-link">Send Us Feedback</a>
+                                    </li>
+                                    <li class="list-note">
+                                        <a href="#" class="nate-link">Get Help</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                         </div>
+                       </div>
+                        
+                       
+                </div>
+              </footer>
+
+            <!--END OF FOOTER PART -->
 </body>
-
+<script src="./practice.js"></script>
+<script src="./nav.js"></script>
+<script src="./home.js"></script>
+<script src="./slide.js"></script>
 </html>

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.check-one{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #d4d4d5;
+    height: 50px;
+}
+
+.price-one{
+    display: block;
+}
+.price-two{
+    display: none;
+}
+.price-three{
+    display: none;
+}
+
+.input-price-one{
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.pricer-one{
+    background-color: aqua;
+    width: 70%;
+}
+.pricer-two{
+    background-color: red;
+    width: 70%;
+}
+.pricer-three{
+    background-color: aqua;
+    width: 70%;
+}
+.pricer-four{
+    background-color: red;
+    width: 70%;
+}
+
+.pricer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

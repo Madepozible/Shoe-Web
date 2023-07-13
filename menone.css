@@ -1,0 +1,1363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper-section{
+    height: 70vh;
+}
+
+.banner-div{
+    /* height: 70vh; */
+}
+.main-div{
+    position: relative;
+}
+
+.image-ban{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.color-div{
+    position: absolute;
+    background-color: #000000b2;
+    width: 100%;
+    height: 100%;
+}
+
+.text-div{
+    padding-top: 220px;
+    color: #fff;
+    padding-left: 30px;
+}
+
+.men{
+    font-size: 27px;
+}
+
+.elegant{
+    font-size: 20px;
+}
+
+.btn-text{
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* .wrapper{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+  
+} */
+
+
+
+.blackDiv{
+    background-color: #000;
+    width: 100%;
+    height: 55vh;
+    /* margin-top: 30px; */
+    display: block;
+}
+.whiteDiv{
+    background-color: #333;
+    width: 100%;
+    height: 55vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.purpleDiv{
+    background-color: purple;
+    width: 100%;
+    height: 55vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.redDiv{
+    background-color: red;
+    width: 100%;
+    height: 55vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.mixDiv{
+    background-color: orange;
+    width: 100%;
+    height: 55vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+
+.wrap-two{
+    margin-left: 100px;
+    position: fixed;
+    top: 0;
+}
+
+.wrap-one{
+    background-color: #d4d4d6;
+    width: 100%;
+    height: 70px;
+}
+
+.btn-div,
+.btn-div-one,
+.btn-div-two,
+.btn-div-three,
+.btn-div-four{
+    margin: 15px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-div-one{
+    background-color: #000;
+    color: #fff;
+}
+.btn-div-two{
+    background-color: purple;
+    color: #fff;
+}
+.btn-div-three{
+    background-color: red;
+    color: #fff;
+}
+.btn-div-four{
+    background: linear-gradient(blue, orange, yellow);
+    color: #fff;
+}
+
+
+.black-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/cc\ 4.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/fb\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+           /* WHITE PART */
+.white-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        /* PURPLE PART */
+.purple-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.purple-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        /* RED PART */
+.red-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/red\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        /* RED PART */
+.mix-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mix-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/mix\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black-shoe{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+row-gap: 10px;  
+margin: 5px;                
+}
+.white-shoe{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+row-gap: 10px;  
+margin: 5px;                
+}
+.purple-shoe,
+.red-shoe,
+.mix-shoe{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+column-gap: 10px;
+row-gap: 10px;  
+margin: 5px;                
+}
+
+.black-btn{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: red;
+    border: 2px solid #fff;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width:900px){
+    .wrapper-section{
+        height: 50vh;
+    }
+    .btn-div,
+.btn-div-one,
+.btn-div-two,
+.btn-div-three,
+.btn-div-four{
+    margin: 15px;
+    width: 80px;
+    height: 35px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.wrap-one{
+    background-color: #d4d4d6;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(./images/road.jpg);
+    background-position: center;
+    background-size: contain;   
+}
+
+.btn-div-one{
+    background-color: #000;
+    color: #fff;
+}
+.btn-div-two{
+    background-color: purple;
+    color: #fff;
+}
+.btn-div-three{
+    background-color: red;
+    color: #fff;
+}
+.btn-div-four{
+    background: linear-gradient(blue, orange, yellow);
+    color: #fff;
+}
+
+.black-shoe{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;  
+    margin: 5px;                
+    }
+    .white-shoe{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;  
+    margin: 10px;                
+    }
+    .purple-shoe,
+    .red-shoe,
+    .mix-shoe{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;  
+    margin: 5px;                
+    }
+
+    .black-one{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-two{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-three{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-four{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-five{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 6.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-six{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 7.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-seven{
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 8.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-eight{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/cc\ 4.jpg);
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .black-nine{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/fb\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+               /* WHITE PART */
+.white-one{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-two{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-three{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-four{
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-five{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-six{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-seven{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-eight{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.white-nine{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+       /* PURPLE PART */
+       .purple-one{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-two{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-three{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-four{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-five{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 6.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-six{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 7.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-seven{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 8.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-eight{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 9.jpg);
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-nine{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 10.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+            /* RED PART */
+.red-one{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-two{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-three{
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-four{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-five{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-six{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-seven{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-eight{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-nine{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/red\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+        /* RED PART */
+        .mix-one{
+            background-color: red;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 1.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-two{
+            background-color: blue;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 2.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-three{
+            background-color: red;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 3.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-four{
+            background-color: blue;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 5.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-five{
+            background-color: red;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 6.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-six{
+            background-color: blue;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 7.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-seven{
+            background-color: red;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 8.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-eight{
+            background-color: blue;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 9.jpg);
+            background-position: center;
+            background-size: contain;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .mix-nine{
+            background-color: blue;
+            height: 200px;
+            width: 170px;
+            background-image: url(./images/mix\ 10.jpg);
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        
+.blackDiv{
+    background-color: #000;
+    width: 100%;
+    height: 35vh;
+    /* margin-top: 30px; */
+    display: block;
+}
+.whiteDiv{
+    background-color: #333;
+    width: 100%;
+    height: 35vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.purpleDiv{
+    background-color: purple;
+    width: 100%;
+    height: 35vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.redDiv{
+    background-color: red;
+    width: 100%;
+    height: 35vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+.mixDiv{
+    background-color: orange;
+    width: 100%;
+    height: 35vh;
+    /* margin-top: 30px; */
+    display: none;
+}
+
+.image-ban{
+display: none;
+}
+.image-banner{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.color-div{
+    position: absolute;
+    background-color: #000000a6;
+    width: 100%;
+    height: 100%;
+}
+
+.men{
+    font-size: 45px;
+}
+
+.elegant{
+    font-size: 25px;
+}
+
+.btn-text{
+    margin-left: 10px;
+    width: 100px;
+    height: 35px;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+}
+
+
+@media screen and (max-width:900px){
+    .image-banner{
+        display: none;
+    }
+}
+
+
+
+
+
