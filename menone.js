@@ -35,26 +35,19 @@ function mix() {
 }
 
 
-   //PRICE PART
-   function boxOne() {
-    document.getElementById("priceOne").style.display = "block";
-    document.getElementById("priceTwo").style.display = "none";
-    document.getElementById("priceThree").style.display = "none";
-   }
-
-
-   function boxTwo() {
-    document.getElementById("priceTwo").style.display = "block";
-    document.getElementById("priceOne").style.display = "none";
-    document.getElementById("priceThree").style.display = "none";
-
-
-   }
-
-
-   function boxThree() {
-    document.getElementById("priceThree").style.display = "block";
-    document.getElementById("priceOne").style.display = "none";
-    document.getElementById("priceTwo").style.display = "none";
-
-   }
+                //PRICE PART
+function priceOne() {
+    document.querySelector(".oneDiv").style.display = "block";
+    document.querySelector(".twoDiv").style.display = "none";
+    document.querySelector(".threeDiv").style.display = "none";
+}
+function priceTwo() {
+    document.querySelector(".twoDiv").style.display = "block";
+    document.querySelector(".oneDiv").style.display = "none";
+    document.querySelector(".threeDiv").style.display = "none";
+}
+function priceThree() {
+    document.querySelector(".threeDiv").style.display = "block";
+    document.querySelector(".oneDiv").style.display = "none";
+    document.querySelector(".twoDiv").style.display = "none";
+}

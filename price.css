@@ -1,53 +1,608 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-.check-one{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background-color: #d4d4d5;
-    height: 50px;
-}
-
-.price-one{
-    display: block;
-}
-.price-two{
-    display: none;
-}
-.price-three{
-    display: none;
-}
-
-.input-price-one{
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-}
-
-.pricer-one{
-    background-color: aqua;
-    width: 70%;
-}
-.pricer-two{
+.pri-one{
     background-color: red;
-    width: 70%;
-}
-.pricer-three{
-    background-color: aqua;
-    width: 70%;
-}
-.pricer-four{
-    background-color: red;
-    width: 70%;
-}
-
-.pricer-div{
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 1.jpg);
+    background-position: center;
+    background-size: cover;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+}
+.pri-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/cc\ 4.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pri-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/fb\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+           /* WHITE PART */
+.pric-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/white\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+        /* PURPLE PART */
+.prices-one{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-two{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-three{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-four{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-five{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-six{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-seven{
+    background-color: red;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-eight{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prices-nine{
+    background-color: blue;
+    height: 100px;
+    width: 150px;
+    background-image: url(./images/purple\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (min-width:900px){
+    .pri-one{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-two{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-three{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-four{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-five{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 6.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-six{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 7.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-seven{
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/black\ 8.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-eight{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/cc\ 4.jpg);
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pri-nine{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/fb\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+               /* WHITE PART */
+.pric-one{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-two{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-three{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 3.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-four{
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-five{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 6.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-six{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/black\ 7.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-seven{
+    background-color: red;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 8.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-eight{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 9.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pric-nine{
+    background-color: blue;
+    height: 200px;
+    width: 170px;
+    background-image: url(./images/white\ 10.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+       /* PURPLE PART */
+       .prices-one{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 1.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-two{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-three{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 3.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-four{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 5.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .purple-five{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 6.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-six{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 7.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-seven{
+        background-color: red;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 8.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-eight{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 9.jpg);
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .prices-nine{
+        background-color: blue;
+        height: 200px;
+        width: 170px;
+        background-image: url(./images/purple\ 10.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
