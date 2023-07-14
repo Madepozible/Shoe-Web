@@ -14,7 +14,7 @@
 
 .wrapper-section{
     height: 70vh;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .main-div{
@@ -730,6 +730,11 @@ margin: 5px;
 
 
 @media screen and (min-width:900px){
+    #note-div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
     .wrap-three{
         background-color: #d4d4d6;
@@ -1423,6 +1428,67 @@ display: none;
     .image-banner{
         display: none;
     }
+}
+
+@media screen and (max-width:700px){
+
+    .wrap-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image-banner{
+        display: none;
+    }
+
+    .btn-div,
+.btn-div-one,
+.btn-div-two,
+.btn-div-three,
+.btn-div-four{
+    margin: 4px;
+    width: 60px;
+    height: 30px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.btn-div-one{
+    background-color: #000;
+    color: #fff;
+}
+.btn-div-two{
+    background-color: purple;
+    color: #fff;
+}
+.btn-div-three{
+    background-color: red;
+    color: #fff;
+}
+.btn-div-four{
+    background: linear-gradient(blue, orange, yellow);
+    color: #fff;
+}
+
+.white-nine,
+.black-nine,
+.purple-nine,
+.red-nine,
+.mix-nine{
+    display: none;
+}
+
+#news-two{
+    font-size: 17px;
+}
+
+
 }
 
 

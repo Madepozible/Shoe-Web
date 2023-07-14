@@ -1,11 +1,18 @@
 @media screen and (min-width:900px){
 
 
-  /* .image-homer{
-    height: 350px;
-    width:  200px;
-    object-fit: cover;
-  } */
+  .note-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+  .nate-link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 20px;
+   }
 .more-sec {
   height: 50vh;
   margin-bottom: 50px;
@@ -563,4 +570,13 @@ background-size: cover;
       align-items: center;
       padding-right: 30px;
     }
+
+    .news-one{
+      color: #fff;
+      margin-right: 30px;
+      font-size: 17px;
+      font-weight: bold;
+  }
+
+  
   }

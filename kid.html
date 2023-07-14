@@ -1,94 +1,654 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./kid.css">
-  <link rel="stylesheet" href="./home.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./menone.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./price.css">
+    <link rel="stylesheet" href="./kid.css">
+    <title>Document</title>
 </head>
 <body>
 
-           <!-- FIRST SHOP LINK -->
-           <section class="home">
-            <div class="why">
-               <p class="para-why">Why Wait? <span class="span-why">Shop Now</span></p>
-               <p class="para-why">
-                  <a href="#" class="link-why">Shop Now</a>
-               </p>
-            </div>
+         <!-- NAV BAR -->
+
+         <header class="header">
+          <div class="container">
+              <div class="header-main">
+                  <div class="logo">
+                    <a href="./index.html">
+                      <img src="./images/Group_1-removebg-preview.png" alt="" class="logo-img">
+                  </a>
+                  </div>
+                  <div class="open-nav-menu">
+                      <span class="spaner"></span>
+                  </div>
+                  <div class="menu-overlay">
+                  </div>
+                  <!-- navigation menu start -->
+                  <nav class="nav-menu">
+                      <div class="close-nav-menu">
+                          <img src="./images/icon-close-menu.svg" alt="close" class="close-nav">
+                      </div>
+                      <ul class="menu">
+                          <li class="menu-item menu-item-has-children">
+                   <a href="#" data-toggle="sub-menu">Home <i class="plus"></i> </a>
+                          <ul class="sub-menu">
+                              <li class="menu-item"><a href="./menone.html">Men</a></li>
+                              <li class="menu-item"><a href="./women.html">Women</a></li>
+                              <li class="menu-item"><a href="./kid.html">Kids</a></li>
+                              <!-- <li class="menu-item"><a href="#">Home 4</a></li> -->
+                          </ul>    
+                          </li>
+                          <li class="menu-item">
+                              <a href="#">About</a>
+                          </li>
+                          <li class="menu-item">
+                              <a href="#">Services</a>
+                          </li>
+                          <li class="menu-item menu-item-has-children">
+                              <a href="#" data-toggle="sub-menu">Pages <i class="plus"></i></a>
+                              <ul class="sub-menu">
+                                  <li class="menu-item"><a href="#">Corporate</a></li>
+                                  <li class="menu-item"><a href="#">Simple</a></li>
+                                  <li class="menu-item"><a href="#">Classic</a></li>
+                                  <!-- <li class="menu-item"><a href="#">Pages 4</a></li> -->
+                              </ul>   
+                          </li>
+                          <li class="menu-item">
+                              <a href="#">News</a>
+                          </li>
+                          <li class="menu-item">
+                              <a href="#">Contact</a>
+                          </li>
+                      </ul>
+                  </nav>
+                  <!-- navigation menu end -->
+              </div>
+          </div>
+      </header>
       
-                   <!--END OF FIRST SHOP LINK -->
-<div class="control">
- 
-  <div class="btn-group">
-    <button class="btn btn-clicked" data-filter="all">All</button>
-    <button class="btn" data-filter="corporate">Corporate</button>
-    <button class="btn" data-filter="boot">Boot</button>
-    <button class="btn" data-filter="sport">Sport</button>
-  </div>
+          <!-- header end -->
 
-  <input type="text" placeholder="Search Food" id="search">
-</div>
-<div class="container">
+    <!-- BANNER PART -->
+     <div class="banner-div">
 
-  <div class="box" data-item="sport"> 
-    <img src="./images/cs 1.jpg">
-  </div>
-  <div class="box"  data-item="boot">
-    <img src="./images/cb 1.jpg">
-  </div>
-  <div class="box"  data-item="corporate">
-    <img src="./images/cc 1.jpg">
-  </div>
+        <div class="main-div">
+        <div class="color-div">
+    
+          <div class="text-div">
+            <h2 class="men">CHILDREN SHOES</h2>
+            <h3 class="elegant">Shop with class an taste
+               <a href="#" class="link-text">
+                <button class="btn-text">Shop</button>
+               </a>
+            </h3>
+          </div>
+              
+        </div>
+          <img src="./images/children one.jpg" alt="" class="image-ban">
+          <img src="./images/children 2.jpg" alt="" class="image-banner" id="image-banner">
+        </div>
+     </div>
 
-
-  <div class="box" data-item="sport"> 
-    <img src="./images/cs 2.jpg">
-  </div>
-  <div class="box"  data-item="boot">
-    <img src="./images/cb 2.jpg">
-  </div>
-  <div class="box"  data-item="corporate">
-    <img src="./images/cc 2.jpg">
-  </div>
+    <!--END OF BANNER PART -->
 
 
-  <div class="box" data-item="sport"> 
-    <img src="./images/cs 3.jpg">
-  </div>
-  <div class="box"  data-item="boot">
-    <img src="./images/cb 3.jpg">
-  </div>
-  <div class="box"  data-item="corporate">
-    <img src="./images/cc 3.jpg">
-  </div>
 
-  <div class="box" data-item="sport"> 
-    <img src="./images/cs 4.jpg">
-  </div>
-  <div class="box"  data-item="boot">
-    <img src="./images/cb 4.jpg">
-  </div>
-  <div class="box"  data-item="corporate">
-    <img src="./images/cc 4.jpg">
-  </div>
+      <!-- <div class="contain-wrap"> -->
+        <section class="wrapper-section">
+        <div class="wrapper">
+          <div class="wrap-one">
+            <button onclick="black()" class="btn-div">White</button>
+            <button onclick="white()" class="btn-div-one">Black</button>
+            <button onclick="purple()" class="btn-div-two">Purple</button>
+            <button onclick="red()" class="btn-div-three">Red</button>
+            <button onclick="mix()" class="btn-div-four">Mix</button>
+          </div>
+
+            <div class="blackDiv">
+              <div class="white-shoe">
+                <div class="white-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="white-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="white-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div>
+
+            <div class="whiteDiv">
+                <div class="black-shoe">
+                    <div class="black-one">
+                        <a href="#" class="black-link">
+                            <button class="black-btn">Shop</button>
+                        </a>
+                    </div>
+                  <div class="black-two">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-three">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-four">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-five">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-six">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-seven">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-eight">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="black-nine">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  </div>
+            </div>
+            <div class="purpleDiv">
+              <div class="purple-shoe">
+                <div class="purple-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="purple-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="purple-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div>
+
+              <!-- Red part -->
+            <div class="redDiv">
+              <div class="red-shoe">
+                <div class="red-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="red-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="red-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div> 
+
+               <!-- Mix part -->
+            <div class="mixDiv">
+              <div class="mix-shoe">
+                <div class="mix-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="mix-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="mix-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div>
+         
+          </section>
+          <div class="wrap-two">
+            <!-- <button onclick="white()">White</button> -->
+           
+          </div>
+        </div>
+
+         <div class="buy-div">
+          <h3 class="buy-head">BUY BY PRICE</h3>
+         </div>
+
+                             <!-- PRICE PART -->
+        <section class="wrapper-section">
+        <div class="wrapper">
+          <div class="wrap-three">
+            <input type="checkbox" onclick="priceOne()" class="price-one"> <p class="price-para">#30,000-#50,000</p></input>
+            <input type="checkbox" onclick="priceTwo()" class="price-two"> <p class="price-para">#50,000-#100,000</p></input>
+            <input type="checkbox" onclick="priceThree()" class="price-three"><p class="price-para">#100,000-#150,000</p></input>
+          </div>
+
+            <div class="oneDiv">
+              <div class="white-shoe">
+                <div class="pri-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="pri-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="pri-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div>
+
+            <div class="twoDiv">
+                <div class="black-shoe">
+                    <div class="pric-one">
+                        <a href="#" class="black-link">
+                            <button class="black-btn">Shop</button>
+                        </a>
+                    </div>
+                  <div class="pric-two">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-three">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-four">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-five">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-six">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-seven">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-eight">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  <div class="pric-nine">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                  </div>
+                  </div>
+            </div>
+            <div class="threeDiv">
+              <div class="purple-shoe">
+                <div class="prices-one">
+                    <a href="#" class="black-link">
+                        <button class="black-btn">Shop</button>
+                    </a>
+                </div>
+              <div class="prices-two">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-three">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-four">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-five">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-six">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-seven">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-eight">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              <div class="prices-nine">
+                <a href="#" class="black-link">
+                    <button class="black-btn">Shop</button>
+                </a>
+              </div>
+              </div>
+            </div>
+
+  
+         
+          </section>
+         
+  
+         <!--END OF SHOP BY PRICE -->
+
+      
+
+             <!-- FOOTER PART -->
+
+             <footer class="foot-wrap">
+              <div class="foot-div">
+       
+                    <div class="foot-one">
+                      <a href="#" class="foot-link-one">
+                          <p id="foot-para-one">Back To Top</p>
+                      </a>
+                    </div>
+
+                     <div class="foot-news">
+                      <div class="news-para">
+                          <p class="news-one" id="news-two">Join Jaegwad Fashion</p>
+                          <p class="news-one" id="news-two">Update</p>
+                      </div>
+
+                       <div class="news-btn">
+                          <a href="#" class="news-link">
+                              <button class="btn-news">Sign Up</button>
+                          </a>
+                       </div>
+                     </div>
+
+                     <div class="foot-icon">
+                       
+                       <div class="icon">
+                          <a href="#" class="icon-link">
+                              <img src="./images/Facebook.png" alt="" class="icon-img">
+                          </a>
+                          <a href="#" class="icon-link">
+                              <img src="./images/Youtube.png" alt="" class="icon-ing">
+                          </a>
+                  <a href="#" class="icon-link">
+                      <img src="./images/instagram.png" alt="" class="icon-img">
+                  </a>
+              <a href="#" class="icon-link">
+                  <img src="./images/Twitter.png" alt="" class="icon-img">
+              </a>
+                       </div>
+
+                       <div class="note-div">
+                          <nav class="note-nav">
+                              <ul class="note-ul">
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Promotion</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Find Store</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Become A Member</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Send Us Feedback</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Get Help</a>
+                                  </li>
+                              </ul>
+                          </nav>
+
+                          <nav class="note-nav">
+                              <ul class="note-ul">
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Get Help</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Order Status</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Returns</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Payment Options</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Contact Us</a>
+                                  </li>
+                              </ul>
+                          </nav>
 
 
-  <div class="box" data-item="sport"> 
-    <img src="./images/cs 5.jpg">
-  </div>
-  <div class="box"  data-item="boot">
-    <img src="./images/cb 5.jpg">
-  </div>
-  <div class="box"  data-item="corporate">
-    <img src="./images/cc 5.jpg">
-  </div>
+                          <nav class="note-nav">
+                              <ul class="note-ul">
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">ABOUT Jaegwad</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">News</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Careers</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Investors</a>
+                                  </li>
+                                  <li class="list-note">
+                                      <a href="#" class="nate-link">Sustainability</a>
+                                  </li>
+                              </ul>
+                          </nav>
+                       </div>
+                     </div>
+                      
+                     
+              </div>
+            </footer>
 
-</div>
-
-
-<script src="./kid.js"></script>
+          <!--END OF FOOTER PART -->
 </body>
+<script src="./menone.js"></script>
+<script src="./nav.js"></script>
+
 </html>
